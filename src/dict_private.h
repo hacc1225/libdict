@@ -102,6 +102,6 @@
 #endif
 
 extern long random(void);
-static inline unsigned dict_rand() { return (unsigned) random(); }
+static inline unsigned dict_rand(void) { return (unsigned) random(); }
 
 #endif /* !LIBDICT_DICT_PRIVATE_H__ */
